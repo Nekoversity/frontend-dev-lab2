@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Frontend lab2</title>
+	<link href="css/style.css" rel="stylesheet" />
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+	<span class="info-box">Введіть ваші дані.</span>
+	<form>
+		<label for="name">Ім'я: </label>
+		<input name="name" id="name" alt="name" minlength="6" maxlength="24" required /><br/>
+		
+		<label for="surname">Прізвище: </label>
+		<input name="surname" id="surname" alt="surname" minlength="6" maxlength="24" required /><br/>
+		
+		<label for="login">Логін: </label>
+		<input name="login" id="login" alt="login" minlength="6" maxlength="24" required /><br/>
+		
+		<label for="password">Пароль: </label>
+		<input type="password" name="password" id="password" alt="password" minlength="6" maxlength="128" required /><br/>
+		
+		<label for="password_confirm">Підт. паролю: </label>
+		<input type="password" name="password_confirm" id="password_confirm" alt="password_confirm" minlength="6" maxlength="128" required /><br/>
+		
+		<label for="email">Пошта: </label>
+		<input type="email" name="email" id="email" alt="email" minlength="6" maxlength="24" required /><br/>
+		
+		<span>Стать: </span>
+		<input type="radio" id="male" name="sex" value="Чоловік" checked>
+		<label for="male">Чоловік</label>
+		
+		<input type="radio" id="female" name="sex" value="Жінка">
+		<label for="female">Жінка</label>
+	</form>
+	<button id="submit">Відправити</button>
+</body>
+</html>

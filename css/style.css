@@ -1,0 +1,14 @@
+input {
+	margin-bottom: 5px;
+}
+
+button {
+	margin-top: 5px;
+}
+
+.info-box {
+	display: inline-block;
+	margin: 7px;
+	padding: 4px;
+	border: 1px solid black;
+}
